@@ -9198,7 +9198,9 @@ textarea.form-control {
   font-size: 42px;
   margin: 0 auto;
   transform: scaleX(1.2); /* Stretch the text by 1.2 times */ }
-
+  .pull-right {
+    margin-left: 90%; /* Pushes this span to the rightmost part */
+}
 .heading-section {
   position: relative; }
   .heading-section .subheading {
