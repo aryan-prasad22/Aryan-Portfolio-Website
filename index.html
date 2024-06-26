@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <title>Aryan Prasad Portfolio</title>
+		<link rel="icon" href="images\portfolio.ico" type="image/x-icon">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -170,14 +171,14 @@
 						for (let i = 0; i < text.length; i++) {
 							setTimeout(() => {
 							typingAnimationElement.textContent += text[i];
-							}, i * 200); // Increase the delay to slow down the typing animation
+							}, i * 100); // Increase the delay to slow down the typing animation
 						}
 
 						// Once the animation is complete, reset the text and start over
 						setTimeout(() => {
 							typingAnimationElement.textContent = '';
 							playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
-						}, text.length * 200);
+						}, text.length * 150);
 						}
 
 						// Start the typing animation loop
@@ -333,7 +334,7 @@
 						<span class="date">Feb - May (2024)</span>
 						<h2>Jr Software Developer</h2>
 						<span class="position">Plus91 Technologies Pvt Ltd | Pune</span>
-						<p class="mt-4">The company offers innovative solutions that cater to various aspects of healthcare management, including digital health, patient data management, communication tools, and more.
+						<p class="mt-4"><!-- The company offers innovative solutions that cater to various aspects of healthcare management, including digital health, patient data management, communication tools, and more. -->
 							<ul>
 								<li>At Plus91 Technologies, I expanded my technical repertoire by developing a chatbot using Python and ChatGPT for website communication and implementing a Named Entity Recognition (NER) model using medical data. 
 								</li>
@@ -349,7 +350,7 @@
 						<span class="date">Dec 2022 - Jan 2023</span>
 						<h2>Java Developer</h2>
 						<span class="position">Infoviaan Technologies | Indore</span>
-						<p class="mt-4">Infoviaan Technologies is a distinguished IT service provider and training company with a steadfast vision to emerge as a premier leader in the technology solutions and consulting industry.
+						<p class="mt-4"><!-- Infoviaan Technologies is a distinguished IT service provider and training company with a steadfast vision to emerge as a premier leader in the technology solutions and consulting industry. -->
 							<ul>
 								<li>At Infoviaan Technologies, I gained in-depth knowledge of J2EE technologies, developing web and enterprise applications. </li>
 								<li>My experience working extensively with Core Java, JDBC, Servlets, JSP, and MySQL has equipped me with a strong foundation in object-oriented programming and MVC architecture.</li>
@@ -420,12 +421,12 @@
         <div class="row d-flex">
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry justify-content-end">
-              <a href="#" class="block-20 zoom-effect" style="background-image: url('images/proj_1.jpg');">
+              <a href="https://github.com/aryan-prasad22/Parking_Website_J2EE" class="block-20 zoom-effect" style="background-image: url('images/Project-Home.png');">
               </a>
               <div class="text mt-3 float-right d-block">
 
-                <h3 class="heading"><a href="#">Digital Music Store Data Analysis using SQL</a></h3>
-                <p>Analyzed music store data using advanced SQL queires to identify gaps and increase the business growth.</p>
+                <h3 class="heading"><a href="#">Parking Project using J2EE Technologies</a></h3>
+                <p>Many homeowners have vacant spots within their premises that remain unused, while drivers struggle to find convenient parking. By connecting these homeowners with drivers in need of parking, we can create a mutually beneficial arrangement that alleviates traffic congestion and provides an additional source of income for property owners.</p>
               </div>
             </div>
           </div>
